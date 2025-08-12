@@ -1,6 +1,3 @@
-const nombre: string = "Luis";
-const id: number = 5;
-
 function ageCalculator(birthdayStr: string): number {
     const today: Date = new Date();
     const birthday: Date = new Date(birthdayStr);
@@ -14,10 +11,10 @@ function ageCalculator(birthdayStr: string): number {
     return age;
 }
 
-let birthday: string = "2005-03-22";
+let birthday: string = "2005-08-10";
 
 console.log(`La persona tiene ${ageCalculator(birthday)} años.`);
 
-birthday = "2005-10-22";
+birthday = "2005-08-22";
 
 console.log(`La persona tiene ${ageCalculator(birthday)} años.`);

@@ -9,7 +9,7 @@ function ageCalculator(birthdayStr) {
     }
     return age;
 }
-var birthday = "2005-03-22";
+var birthday = "2005-08-10";
 console.log("La persona tiene ".concat(ageCalculator(birthday), " a\u00F1os."));
-birthday = "2005-10-22";
+birthday = "2005-08-22";
 console.log("La persona tiene ".concat(ageCalculator(birthday), " a\u00F1os."));
